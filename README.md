@@ -46,7 +46,9 @@ $ npm install -g vue-cli
 ### Set up
 You might want to use ```sudo``` if you encounter permissions error
 ```bash
-$ vue init NdagiStanley/vue-django my-project
+### > vue2
+$ # vue init leaderup/vue-django my-project
+$ vue init -c leaderup/vue-django my-project
 $ cd my-project
 $ npm install
 ```
