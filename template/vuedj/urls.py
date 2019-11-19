@@ -21,4 +21,5 @@ from app.views import index
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', index, name='home'),
+    url(r'^static-vuedj/', redirect_staticfiles, name='redirect staticfiles'),  # 处理第三方静态文件
 ]
